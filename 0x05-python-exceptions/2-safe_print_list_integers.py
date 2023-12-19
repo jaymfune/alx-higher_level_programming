@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def safe_print_list_integers(my_list=[], x=0):
+def safe_print_list_integers(my_list=None, x=0):
     try:
         count_integers = 0
         # If my_list is not provided, initialize it as an empty list
